@@ -6,7 +6,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith(rip) || (message.content.startsWith(Rip))) {
+  if (message.content.startsWith(rip)) {
     message.channel.send("NEVER FUCKING FORGETTI");
   }
   if (message.content.startsWith("you should eat pie")){
