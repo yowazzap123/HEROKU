@@ -1,0 +1,11 @@
+{
+  "name": "quote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mybot.js",
+  "scripts": {
+    "start": "node myboy.js"
+  },
+  "author": "Steven",
+  "license": "ISC"
+}
