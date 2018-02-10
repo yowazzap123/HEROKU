@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node myboy.js"
   },
+  "dependencies": {
+    "discord.js": "11.3.0"
+  }
   "author": "Steven",
   "license": "ISC"
 }
