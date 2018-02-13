@@ -22,7 +22,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("where are my rights")){
     message.channel.send("In the Bill of Rights faggot")
   }
-  if (message.content.startsWith("Who is denz?")) || (message.content.startsWith("who is denz?")){
+  if (message.content.startsWith("Who is denz?" || "who is denz?")){
     message.channel.send("WHO IS DENZ??n\ Denz is a talented swordsman\n Who has never let fear best him in a fight.\n Perhaps that stems from the burden he bears... The Templar's Curse. \n It is a terrible power that in the coming days, will shape his future...")
   }
 });
