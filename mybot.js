@@ -28,6 +28,30 @@ client.on("message", (message) => {
   if (input === "420"){
     message.channel.send("BLAZE IT");
   }
+  if (input === "who is steven?"){
+    message.channel.send("Steven Darkblade: \n One of the greatest bards to ever live.  Abandoned at his father's death at age 9, he ventured off into the world to find the true meaning of love and happiness.  One day, a duel between him and a dark wizard Fenniken resulted in him being casted into space in a comet.  after 2000 years in space, his comet came crashing down into DND land and got stuck in a cone of cold somehow.  Now he must go on adventures with three other members in order to regain the EXP points he lost while in space.  Will steven ever find out his sexuality?")
+  }
+  if (input === "who is ron shanesworn?"){
+    message.channel.send("https://www.youtube.com/watch?v=-TcLxlkc2pA")
+  }
+  if (input === "gimme the spicy meatball"){
+    message.channel.send("https://www.youtube.com/watch?v=fAm_1PGWfrE")
+  }
+  if (input === "grace vanderwaal"){
+    message.channel.send("https://www.youtube.com/watch?v=swTki-Klk3g")
+  }
+  if (input === "depression"){
+    message.channel.send("https://www.youtube.com/watch?v=isrF__5gdII")
+  }
+  if (input === "deja vu"){
+    message.channel.send("https://youtu.be/SvaBaq9yuxY?t=62")
+  }
+  
+  ////List of commands
+  if (input === "/help"){
+    message.channel.send("Commands: \n1) rest in spaghetti \n2) who is sam? \n3) you should eat pie \n4) what are my rights? \n5) where are my rights? \n6) who is denz? \n7) 420 \n8) who is steven? \n9) who is ron shanesworn? \n10) gimme the spicy meatball  \n11) grace vanderwaal \n12) depression \n13) deja vu")
+  }
+    
 });
 
 client.login(process.env.BOT_TOKEN);
