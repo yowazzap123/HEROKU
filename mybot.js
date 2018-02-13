@@ -11,7 +11,7 @@ client.on("message", (message) => {
     message.channel.send("NEVER FORGETTI");
   }
   if (input === "who is sam?"){
-    message.channel.send("WHO IS SAM??? \n Sam is the one and true creator of the Dungeons and Dragons universe where our fellow adventureres go out to slay the demon king.  \n in their quest they find a mysterious man named Steven Darkblade who accompanies them into the \n magical world that SAM THE GREAT has created for them. \n on the next episide of DND, will Sam make steven gay?  Will Lews Theren ever find his mother?  \n What will Ron Shaneswarn do about that brat Dovahkinn Snow?");
+    message.channel.send("WHO IS SAM??? \n Sam is the one and true creator of the Dungeons and Dragons universe where our \n fellow adventureres go out to slay the demon king.  \n in their quest they find a mysterious man named Steven Darkblade who accompanies them into the \n magical world that SAM THE GREAT has created for them. \n on the next episide of DND, will Sam make steven gay?  Will Lews Theren ever find his mother?  \n What will Ron Shaneswarn do about that brat Dovahkinn Snow?");
   }
   if (input === "you should eat pie"){
     message.channel.send("Like sam eats fat dicks");
