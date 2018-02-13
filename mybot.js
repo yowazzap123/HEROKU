@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
   var input = message.content.toLowerCase();
-  if (input = "rest in spaghetti"){
+  if (input === "rest in spaghetti"){
     message.channel.send("NEVER FORGETTI");
   }
 });
