@@ -25,7 +25,7 @@ client.on("message", (message) => {
       message.channel.send("10) Powers reserved to the states.")
   }
   if (message.content.startsWith("What are my rights?")){
-      message.channel.send("1) Freedom of religion, speech, press, assembly, and petition.\n 2) Right to keep and bear arms in order to maintain a well regulated militia.")
+      message.channel.send("\n 1) Freedom of religion, speech, press, assembly, and petition.\n 2) Right to keep and bear arms in order to maintain a well regulated militia.")
   
   }
 
