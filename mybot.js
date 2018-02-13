@@ -25,16 +25,8 @@ client.on("message", (message) => {
       message.channel.send("10) Powers reserved to the states.")
   }
   if (message.content.startsWith("What are my rights?")){
-      message.channel.send("1) Freedom of religion, speech, press, assembly, and petition.")
-      message.channel.send("2) Right to keep and bear arms in order to maintain a well regulated militia.")
-      message.channel.send("3) No quartering of soldiers.")
-      message.channel.send("4) Freedom from unreasonable searches and seizures.")
-      message.channel.send("5) Right to due process of law, freedom from self-incrimination, double jeopardy.")
-      message.channel.send("6) Rights of accused persons, e.g., right to a speedy and public trial.")
-      message.channel.send("7) Right of trial by jury in civil cases.")
-      message.channel.send("8) Freedom from excessive bail, cruel and unusual punishments.")
-      message.channel.send("9) Other rights of the people. ")
-      message.channel.send("10) Powers reserved to the states.")
+      message.channel.send("1) Freedom of religion, speech, press, assembly, and petition.\n 2) Right to keep and bear arms in order to maintain a well regulated militia.")
+  
   }
 
   if (message.content.startsWith("where are my rights")){
