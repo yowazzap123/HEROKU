@@ -47,6 +47,9 @@ client.on("message", (message) => {
   if (input === "deja vu"){
     message.channel.send("https://youtu.be/SvaBaq9yuxY?t=62")
   }
+  if (input === "who is lews-therin telamon?"){
+    message.channel.send("WHO IS LEWS-THERIN TELAMON? \n Be careful when you say his name...  The last time someone said his name there was a series of events that lead to their death.  He was an empty vessel, roaming around the world of DND with only his improvised bow techniques and badass ranged attacks.  One day he was able to find himself again after defeating the wretched 3 cultists, and became himself again... Morair dorcha na Gàidhealtachd, a legendary spellcaster who for some reason is level 5.  He is no longer lost, but the fact that he follows three idiots may say otherwise.")
+  }
   
   ////List of commands
   if (input === "/help"){
