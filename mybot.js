@@ -7,6 +7,21 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
   var input = message.content.toLowerCase();
+  var d = new Date();
+  var weekday = new Array(7);
+  weekday[0] = "SUNSUN DAY WOO"
+  weekday[1] = "MOURNDAY BLEGH"
+  weekday[2] = "2DAYS"
+  weekday[3] = "HUMPDAY"
+  weekday[4] = "THORSDAY"
+  weekday[5] = "FREITAG"
+  weekday[6] = "SATURN DAY"
+  var n = weekday[d.getDay()]
+  
+  if (input === "/date"){
+    message.channel.send(n);
+  }
+  
   if (input === "rest in spaghetti"){
     message.channel.send("NEVER FORGETTI");
   }
