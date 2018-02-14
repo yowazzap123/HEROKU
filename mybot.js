@@ -6,6 +6,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
+  ////DATE////
   var input = message.content.toLowerCase();
   var d = new Date();
   var weekday = new Array(7);
@@ -17,7 +18,6 @@ client.on("message", (message) => {
   weekday[5] = "FREITAG"
   weekday[6] = "SATURN DAY"
   var n = weekday[d.getDay()]
-  
   if (input === "/date"){
     message.channel.send(n);
   }
@@ -71,6 +71,22 @@ client.on("message", (message) => {
     message.channel.send("Commands: \n1) rest in spaghetti \n2) who is sam? \n3) you should eat pie \n4) what are my rights? \n5) where are my rights? \n6) who is denz? \n7) 420 \n8) who is steven? \n9) who is ron shadesworn? \n10) gimme the spicy meatball  \n11) grace vanderwaal \n12) depression \n13) deja vu \n14) who is Lews-Therin Telamon?")
     message.channel.send("None of these are case sensitive")
   }
+  var command = new Array(15);
+  command[0] = ""
+  command[1] = ""
+  command[2] = ""
+  command[3] = ""
+  command[4] = ""
+  command[5] = ""
+  command[6] = ""
+  command[7] = ""
+  command[8] = ""
+  command[9] = ""
+  command[10] = ""
+  command[11] = ""
+  command[12] = ""
+  command[13] = ""
+  command[14] = ""
     
 });
 
