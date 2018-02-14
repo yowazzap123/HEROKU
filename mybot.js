@@ -31,8 +31,9 @@ client.on("message", (message) => {
   if (input === "who is steven?"){
     message.channel.send("Steven Darkblade: \n One of the greatest bards to ever live.  Abandoned at his father's death at age 9, he ventured off into the world to find the true meaning of love and happiness.  One day, a duel between him and a dark wizard Fenniken resulted in him being casted into space in a comet.  after 2000 years in space, his comet came crashing down into DND land and got stuck in a cone of cold somehow.  Now he must go on adventures with three other members in order to regain the EXP points he lost while in space.  Will steven ever find out his sexuality?")
   }
-  if (input === "who is ron shanesworn?"){
-    message.channel.send("https://www.youtube.com/watch?v=-TcLxlkc2pA")
+  if (input === "who is ron shadesworn?"){
+    message.channel.send("WHO IS RON SHADESWORN?\n Only the greatest motherfucking rogue ninja assassin there is bitch!  The way he moves in the dark is like nothing you've ever seen before, mainly because you will never see him.  Those who ever see his face never lived to tell the tale, except for the group of dumbasses that follow him around.  Just don't pick a fight with him. Just because he is small in stature does not mean he's not deadly.  You would thank the Gods if he let you suck his dick instead of killing you.")
+    message.channel.send("https://www.youtube.com/watch?v=Tch4v0L0GHA")
   }
   if (input === "gimme the spicy meatball"){
     message.channel.send("https://www.youtube.com/watch?v=fAm_1PGWfrE")
