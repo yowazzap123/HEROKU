@@ -73,7 +73,7 @@ client.on("message", (message) => {
   
   ////List of commands
   var command = new Array(15);
-  var com = "COMMANDS:\n"
+  var com = "COMMANDS:\n "
   command[0] = "rest in spaghetti"
   command[1] = "you should eat pie"
   command[2] = "what are my rights?"
