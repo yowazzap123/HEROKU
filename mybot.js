@@ -72,10 +72,6 @@ client.on("message", (message) => {
   }
   
   ////List of commands
-  if (input === "/help"){
-    message.channel.send("Commands: \n1) rest in spaghetti \n2) who is sam? \n3) you should eat pie \n4) what are my rights? \n5) where are my rights? \n6) who is denz? \n7) 420 \n8) who is steven? \n9) who is ron shadesworn? \n10) gimme the spicy meatball  \n11) grace vanderwaal \n12) depression \n13) deja vu \n14) who is Lews-Therin Telamon?")
-    message.channel.send("None of these are case sensitive")
-  }
   var command = new Array(15);
   command[0] = "rest in spaghetti"
   command[1] = "you should eat pie"
@@ -93,8 +89,8 @@ client.on("message", (message) => {
   command[13] = "grace vanderwaal"
   command[14] = "/date"
   if (input === "/help"){
-   message.channel.send("COMMANDS:")
-  message.channel.send(command.join('\n '));
+
+  message.channel.send("COMMANDS:",command.join('\n '));
   }
 });
 
