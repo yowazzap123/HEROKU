@@ -73,6 +73,7 @@ client.on("message", (message) => {
   
   ////List of commands
   var command = new Array(15);
+  var com = "COMMANDS:"
   command[0] = "rest in spaghetti"
   command[1] = "you should eat pie"
   command[2] = "what are my rights?"
@@ -90,7 +91,7 @@ client.on("message", (message) => {
   command[14] = "/date"
   if (input === "/help"){
 
-  message.channel.send("COMMANDS:",command.join('\n '));
+  message.channel.send(com.concat(command.join('\n ')));
   }
 });
 
