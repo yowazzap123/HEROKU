@@ -10,6 +10,7 @@ client.on("message", (message) => {
   var input = message.content.toLowerCase();
   var d = new Date();
   var weekday = new Array(7);
+  var space = "/n "
   weekday[0] = "SUNSUN DAY WOO"
   weekday[1] = "MOURNDAY BLEGH"
   weekday[2] = "2DAYS"
@@ -50,6 +51,10 @@ client.on("message", (message) => {
     message.channel.send("WHO IS RON SHADESWORN?\n Only the greatest motherfucking rogue ninja assassin there is bitch!  The way he moves in the dark is like nothing you've ever seen before, mainly because you will never see him.  Those who ever see his face never lived to tell the tale, except for the group of dumbasses that follow him around.  Just don't pick a fight with him. Just because he is small in stature does not mean he's not deadly.  You would thank the Gods if he let you suck his dick instead of killing you.")
     message.channel.send("https://www.youtube.com/watch?v=Tch4v0L0GHA")
   }
+  if (input === "who is dovahkiin snow?"){
+    message.channel.send("WHO IS DOVAHkIIN SNOW? \n He is the reason why Hotpockets exist in our real world!  Think about it, all those times he kicked down cultist doors, or mormon doors, he's been kicking down the doors so that Bahamut can come in to our real world and give us the great treats that are HotPockets(TM).  His sense for righteousness stems from the God and only true God BAHAMUUUUUUT!(Btw his favourite food place is BAJA FRESH!)  Also he has a massive dick.")
+    message.channel.send("https://youtu.be/HTZb4plCiBc");
+  }
   if (input === "gimme the spicy meatball"){
     message.channel.send("https://www.youtube.com/watch?v=fAm_1PGWfrE")
   }
@@ -72,22 +77,25 @@ client.on("message", (message) => {
     message.channel.send("None of these are case sensitive")
   }
   var command = new Array(15);
-  command[0] = ""
-  command[1] = ""
-  command[2] = ""
-  command[3] = ""
-  command[4] = ""
-  command[5] = ""
-  command[6] = ""
-  command[7] = ""
-  command[8] = ""
-  command[9] = ""
-  command[10] = ""
-  command[11] = ""
-  command[12] = ""
-  command[13] = ""
-  command[14] = ""
-    
+  command[0] = "rest in spaghetti"
+  command[1] = "you should eat pie"
+  command[2] = "what are my rights?"
+  command[3] = "where are my rights?"
+  command[4] = "420"
+  command[5] = "depression"
+  command[6] = "deja vu"
+  command[7] = "who is steven?"
+  command[8] = "who is ron shadesworn?"
+  command[9] = "who is lews-therin telamon?"
+  command[10] = "who is dovahkiin snow?"
+  command[11] = "who is sam?"
+  command[12] = "who is denz?"
+  command[13] = "grace vanderwaal"
+  command[14] = "/date"
+  if (input === "/help"){
+   message.channel.send("COMMANDS:")
+  message.channel.send(command.join('\n '));
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
